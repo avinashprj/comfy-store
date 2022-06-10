@@ -18,7 +18,7 @@ const getElement = (selection) => {
 };
 
 const formatPrice = (price) => {
-  let ConvertedPrice = (price / 100) * 75;
+  const ConvertedPrice = (price / 100) * 75;
   const formattedPrice = new Intl.NumberFormat('en-IN', {
     style: 'currency',
     currency: 'INR',
