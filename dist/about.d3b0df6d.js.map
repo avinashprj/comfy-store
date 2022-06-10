@@ -1,0 +1,1 @@
+{"mappings":"oeACAA,EAAA,S","sources":["src/pages/about.js"],"sourcesContent":["// global imports\nimport '../toggleSidebar.js';\nimport '../cart/toggleCart.js';\nimport '../cart/setupCart.js';\n"],"names":["parcelRequire"],"version":3,"file":"about.d3b0df6d.js.map"}

@@ -9,12 +9,12 @@ import display from './src/displayProducts.js';
 import { getElement } from './src/utils.js';
 
 async function init() {
-        const products = await fetchProducts();
+  const products = await fetchProducts();
 
-        if (products) {
-                setupStore(products);
-                const featured = store.filter((product) => product.featured === true);
-                display(featured, getElement('.featured-center'));
-        }
+  if (products) {
+    setupStore(products);
+    const featured = store.filter((product) => product.featured === true);
+    display(featured, getElement('.featured-center'));
+  }
 }
 window.addEventListener('DOMContentLoaded', init);
