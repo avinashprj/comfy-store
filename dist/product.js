@@ -1,12 +1,12 @@
 // global imports
-import '../toggleSidebar.js';
-import '../cart/toggleCart.js';
-import { addToCart } from '../cart/setupCart.js';
+import '../src/toggleSidebar.js';
+import '../src/cart/toggleCart.js';
+import { addToCart } from '../src/cart/setupCart.js';
 // specific
 
-import { singleProductUrl, getElement, formatPrice } from '../utils.js';
-import display from '../displayProducts.js';
-import { store } from '../store.js';
+import { singleProductUrl, getElement, formatPrice } from '../src/utils.js';
+import display from '../src/displayProducts.js';
+import { store } from '../src/store.js';
 
 // selections
 const loading = getElement('.page-loading');
