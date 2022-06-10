@@ -1,0 +1,19 @@
+{
+  "name": "comfy-store",
+  "version": "1.0.0",
+  "description": "ecommerce store like ikea for all your home furnitures made using vanilla HTML, CSS and JAVASCRIPT( Project info- John smilga instructor taught this in his javascript course)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinashprj/comfy-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinashprj/comfy-store/issues"
+  },
+  "homepage": "https://github.com/avinashprj/comfy-store#readme"
+}
