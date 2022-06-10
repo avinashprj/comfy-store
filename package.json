@@ -4,7 +4,8 @@
   "description": "ecommerce store like ikea for all your home furnitures made using vanilla HTML, CSS and JAVASCRIPT( Project info- John smilga instructor taught this in his javascript course)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@types/node": "^16.11.39",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
+    "cssnano": "^4.1.11",
     "eslint": "^8.17.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^16.2.0",

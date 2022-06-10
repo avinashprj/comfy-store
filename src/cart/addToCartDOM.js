@@ -2,10 +2,10 @@ import { formatPrice, getElement } from '../utils.js';
 
 const cartItemsDOM = getElement('.cart-items');
 const addToCartDOM = ({ id, name, price, amount, image }) => {
-        const article = document.createElement('article');
-        article.classList.add('cart-item');
-        article.setAttribute('data-id', id);
-        article.innerHTML = `<img src="${image}"
+  const article = document.createElement('article');
+  article.classList.add('cart-item');
+  article.setAttribute('data-id', id);
+  article.innerHTML = `<img src="${image}"
               class="cart-item-img"
               alt="${name}"
             />
@@ -24,7 +24,7 @@ const addToCartDOM = ({ id, name, price, amount, image }) => {
               </button>
             </div>
   `;
-        cartItemsDOM.appendChild(article);
+  cartItemsDOM.appendChild(article);
 };
 
 export default addToCartDOM;

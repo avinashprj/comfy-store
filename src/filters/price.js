@@ -22,7 +22,7 @@ const setupPrice = (store) => {
     const value = parseInt(priceInput.value);
 
     priceValue.textContent = `Value : ₹${value}`;
-    let newStore = store.filter(
+    const newStore = store.filter(
       (product) => (product.price / 100) * 75 <= value
     );
     display(newStore, getElement('.products-container'), true);
